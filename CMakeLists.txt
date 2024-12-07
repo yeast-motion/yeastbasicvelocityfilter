@@ -26,6 +26,7 @@ find_package(Eigen3 REQUIRED)
 # Specify include directories for the library (if needed)
 target_include_directories(yeastbasicvelocityfilter PUBLIC
     include
+    ${ADDITIONAL_INCLUDE_PATHS}
 )
 
 # Install the library and header files
