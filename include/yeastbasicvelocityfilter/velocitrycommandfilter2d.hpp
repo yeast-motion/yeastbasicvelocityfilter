@@ -96,6 +96,7 @@ class VelocityCommandFilter2D
     Velocity reset (Velocity initial_condition)
     {
         this->velocity = initial_condition;
+        return this->velocity;
     }
 
     Velocity step (Velocity target_velocity, float timestep_seconds)

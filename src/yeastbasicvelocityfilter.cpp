@@ -1,4 +1,4 @@
-#include "yeastbasicvelocityfilter.hpp"
+#include "yeastbasicvelocityfilter/yeastbasicvelocityfilter.hpp"
 
 using namespace yeast_motion;
 
